@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CompletedProfileViewController.h
 //  storyboardDemo
 //
 //  Created by Swathi Tata on 29/04/14.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CompletedProfileViewController : UIViewController
 
-@property(nonatomic,retain)NSString *details;
 
-@property(nonatomic,retain)NSString *habits;
 
+@property(nonatomic,retain)NSString *habitsText;
 @end

@@ -21,6 +21,8 @@
 		672F39EF190F8B3D00808A6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672F39D1190F8B3D00808A6E /* UIKit.framework */; };
 		672F39F7190F8B3D00808A6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 672F39F5190F8B3D00808A6E /* InfoPlist.strings */; };
 		672F39F9190F8B3D00808A6E /* storyboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F39F8190F8B3D00808A6E /* storyboardDemoTests.m */; };
+		672F3A04190F8F9100808A6E /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F3A03190F8F9100808A6E /* FriendsViewController.m */; };
+		672F3A07190F93C200808A6E /* CompletedProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F3A06190F93C200808A6E /* CompletedProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		672F39F4190F8B3D00808A6E /* storyboardDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "storyboardDemoTests-Info.plist"; sourceTree = "<group>"; };
 		672F39F6190F8B3D00808A6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		672F39F8190F8B3D00808A6E /* storyboardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storyboardDemoTests.m; sourceTree = "<group>"; };
+		672F3A02190F8F9100808A6E /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		672F3A03190F8F9100808A6E /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		672F3A05190F93C200808A6E /* CompletedProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompletedProfileViewController.h; sourceTree = "<group>"; };
+		672F3A06190F93C200808A6E /* CompletedProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompletedProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				672F39DF190F8B3D00808A6E /* Main.storyboard */,
 				672F39E2190F8B3D00808A6E /* ViewController.h */,
 				672F39E3190F8B3D00808A6E /* ViewController.m */,
+				672F3A02190F8F9100808A6E /* FriendsViewController.h */,
+				672F3A03190F8F9100808A6E /* FriendsViewController.m */,
+				672F3A05190F93C200808A6E /* CompletedProfileViewController.h */,
+				672F3A06190F93C200808A6E /* CompletedProfileViewController.m */,
 				672F39E5190F8B3D00808A6E /* Images.xcassets */,
 				672F39D4190F8B3D00808A6E /* Supporting Files */,
 			);
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672F3A04190F8F9100808A6E /* FriendsViewController.m in Sources */,
 				672F39E4190F8B3D00808A6E /* ViewController.m in Sources */,
 				672F39DE190F8B3D00808A6E /* AppDelegate.m in Sources */,
 				672F39DA190F8B3D00808A6E /* main.m in Sources */,
+				672F3A07190F93C200808A6E /* CompletedProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
